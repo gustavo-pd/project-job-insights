@@ -1,5 +1,5 @@
-# from src.counter import count_ocurrences
+from src.counter import count_ocurrences
 
 
 def test_counter():
-    pass
+    assert count_ocurrences("tests/mocks/jobs.csv", "time") == 2
