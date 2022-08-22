@@ -55,9 +55,11 @@ def get_min_salary(path):
 
 
 def verify_salary_error(min, max, value):
-    if type(min) != int or min == "":
+    if type(min) != int:
         raise ValueError
-    if type(max) != int or max == "":
+    if type(max) != int:
+        raise ValueError
+    if type(value) != int:
         raise ValueError
     if max < min:
         raise ValueError
@@ -74,18 +76,11 @@ def matches_salary_range(job, salary):
 
 
 def filter_by_salary_range(jobs, salary):
-    """Filters a list of jobs by salary range
-
-    Parameters
-    ----------
-    jobs : list
-        The jobs to be filtered
-    salary : int
-        The salary to be used as filter
-
-    Returns
-    -------
-    list
-        Jobs whose salary range contains `salary`
-    """
-    return []
+    job_list = []
+    for obj in jobs:
+        try:
+            if matches_salary_range(obj, salary):
+                job_list.append(obj)
+        except ValueError:
+            pass
+    return job_list
