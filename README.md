@@ -14,7 +14,7 @@
 
 <p>O Jobs Insights é uma site de vagas de emprego, nele é possivel visualizar, pesquisar e filtrar diversas vagas de emprego.</p>
 <p>Neste projeto sou autor das funções lêem, filtram e manipulam os dados para serem renderizados no front-end. O projeto foi desenvolvido durante o curso da Trybe com o objetivo de consolidar os estudos com Python, foi realizado em agosto de 2022, no módulo de Ciência da Computação.</p>
-<p>O front-end foi desenvolvido pela escola Trybe</p>
+<p>O front-end foi desenvolvido pela escola Trybe.</p>
 </br>
 
 <h2 id="tecnologies">Técnologias utilizadas</h2>
