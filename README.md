@@ -8,12 +8,14 @@
 <h4>- <a href="#tecnologies">Técnologias utilizadas</a></h4>
 <h4>- <a href="#development">Desenvolvimento</a></h4>
 <h4>- <a href="#howtouse">Como executar o projeto</a></h4>
+</br>
 
 <h2 id="context">Contexto</h2>
 
 <p>O Jobs Insights é uma site de vagas de emprego, nele é possivel visualizar, pesquisar e filtrar diversas vagas de emprego.</p>
 <p>Neste projeto sou autor das funções lêem, filtram e manipulam os dados para serem renderizados no front-end. O projeto foi desenvolvido durante o curso da Trybe com o objetivo de consolidar os estudos com Python, foi realizado em agosto de 2022, no módulo de Ciência da Computação.</p>
 <p>O front-end foi desenvolvido pela escola Trybe</p>
+</br>
 
 <h2 id="tecnologies">Técnologias utilizadas</h2>
 
@@ -21,13 +23,14 @@
   <li>Python</li>
   <li>Flask</li>
 </ul>
+</br>
 
 <h2 id="development">Desenvolvimento</h2>
 
 <p>Neste projeto pude implementar muita lógica de programação utilizando Python.</p>
 <p>Foi possível realizar diversas funções para abrir arquivos, ler dados, manipulá-los e filtrá-los, também foi possível criar uma rota e testes unitários em Python.</p>
 <p>Os arquivos que trabalhei são src/templates/jobs.py, src/templates/insights.py e src/tests</p>
-
+</br>
 
 <h2 id="howtouse">Como executar o projeto</h2>
 
