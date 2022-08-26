@@ -1,5 +1,6 @@
 <h1>💼 Job Insights 🏢</h1>
 
+<img src="./src/images/jobs.png" alt="Imagem site">
 </br>
 
 <h2>Índice</h2>
@@ -26,8 +27,6 @@
 <p>Neste projeto pude implementar muita lógica de programação utilizando Python.</p>
 <p>Foi possível realizar diversas funções para abrir arquivos, ler dados, manipulá-los e filtrá-los, também foi possível criar uma rota e testes unitários em Python.</p>
 <p>Os arquivos que trabalhei são src/templates/jobs.py, src/templates/insights.py e src/tests</p>
-
-<img src="./src/images/jobs.png" alt="Imagem site">
 
 
 <h2 id="howtouse">Como executar o projeto</h2>
